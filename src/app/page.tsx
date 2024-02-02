@@ -26,7 +26,7 @@ export default function Home() {
           href={`https://zora.co/collect/${CHAIN.id}:${CONTRACT_ADDRESS}/${TOKEN_ID}`}
           style={{ color: 'inherit' }}
         >
-          in-acc mint 003!
+          in-acc mint 003
         </a>
       </h1>
     </div>
