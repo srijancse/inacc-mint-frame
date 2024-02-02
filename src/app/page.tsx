@@ -9,7 +9,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   metadataBase: SITE_URL ? new URL(SITE_URL) : undefined,
-  title: 'in-acc mint 003!',
+  title: 'in-acc mint 003',
   other: FRAME_METADATA,
 };
 
