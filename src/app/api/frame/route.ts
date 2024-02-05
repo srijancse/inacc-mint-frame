@@ -62,13 +62,13 @@ export async function POST(req: NextRequest): Promise<Response> {
     }
 
     // Check if user has minted before
-    if (HAS_KV) {
-      const prevMintHash = await kv.get<Hex>(`mint:${address}`);
+    //if (HAS_KV) {
+      //const prevMintHash = await kv.get<Hex>(`mint:${address}`);
 
-      if (prevMintHash) {
-        return getResponse(ResponseType.ALREADY_MINTED);
-      }
-    }
+      //if (prevMintHash) {
+      //  return getResponse(ResponseType.ALREADY_MINTED);
+      //}
+    //}
 
     // Check if user has a balance
     const balance = await publicClient.readContract({
