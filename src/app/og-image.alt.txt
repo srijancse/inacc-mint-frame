@@ -1,1 +1,1 @@
-in-acc mint 005!
+in-acc mint 005
