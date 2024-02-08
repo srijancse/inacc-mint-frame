@@ -9,6 +9,6 @@ export const TOKEN_ID = 7n; // First collection is 1
 
 export const FRAME_METADATA = getFrameMetadata({
   buttons: ['in-acc mint 007'],
-  image: `${SITE_URL}/opengraph-image.jpg`,
+  image: `${SITE_URL}/hawa.jpg`,
   post_url: `${SITE_URL}/api/frame`,
 });
